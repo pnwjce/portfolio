@@ -23,76 +23,51 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-  vertical-align: baseline;}
-  
-  body {
-    line-height: 1;
-  }
+	vertical-align: baseline;}
 
-  @media screen and (min-width: 961px) and (max-width: 1880px) {
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
 
-		/* Basic */
-
-			body, input, textarea, select {
-				font-size: 17pt;
-      }
-      #main {
-				margin-left: 300px;
-			}
-
-  }
-
-  @media screen and (min-width: 961px) and (max-width: 1620px) {
-
-		/* Main */
-
-			#main > section {
-				padding: 3em 0;
-			}
-
-			#main section.cover {
-				padding: 5em 0;
-			}
-
-  }
- 
-  @media screen and (min-width: 961px) and (max-width: 1320px) {
-
-		/* Basic */
-
-			body, input, textarea, select {
-				font-size: 16pt;
-			}
- }
-
- #headerToggle {
-  display: none;
+body {
+	line-height: 1;
 }
 
-@media screen and (max-width: 960px) {
-  /* Basic */
-
-  html, body {
-    overflow-x: hidden;
-  }
-
-  body, input, textarea, select {
-    font-size: 16pt;
-  }
-
-  header br {
-    display: none;
-  }
-
-  .container {
-    padding: 0 2em 0 2em;
-  }
-
+ol, ul {
+	list-style: none;
 }
 
-@media screen and (max-width: 736px) {
-  body, input, textarea, select {
-    font-size: 14pt;
-  }
-  
+blockquote, q {
+	quotes: none;
+}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input, select, textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
 }
