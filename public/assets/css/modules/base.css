@@ -1,0 +1,98 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+/*
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;}
+  
+  body {
+    line-height: 1;
+  }
+
+  @media screen and (min-width: 961px) and (max-width: 1880px) {
+
+		/* Basic */
+
+			body, input, textarea, select {
+				font-size: 17pt;
+      }
+      #main {
+				margin-left: 300px;
+			}
+
+  }
+
+  @media screen and (min-width: 961px) and (max-width: 1620px) {
+
+		/* Main */
+
+			#main > section {
+				padding: 3em 0;
+			}
+
+			#main section.cover {
+				padding: 5em 0;
+			}
+
+  }
+ 
+  @media screen and (min-width: 961px) and (max-width: 1320px) {
+
+		/* Basic */
+
+			body, input, textarea, select {
+				font-size: 16pt;
+			}
+ }
+
+ #headerToggle {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  /* Basic */
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  body, input, textarea, select {
+    font-size: 16pt;
+  }
+
+  header br {
+    display: none;
+  }
+
+  .container {
+    padding: 0 2em 0 2em;
+  }
+
+}
+
+@media screen and (max-width: 736px) {
+  body, input, textarea, select {
+    font-size: 14pt;
+  }
+  
+}

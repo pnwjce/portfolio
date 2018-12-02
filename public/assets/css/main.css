@@ -1,4 +1,5 @@
-@import url("font-awesome.min.css");
+/* base.css */
+/* @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
@@ -7,7 +8,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
+/* base.css */
+/* html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -23,17 +25,19 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;} */
 
-article, aside, details, figcaption, figure,
+	/* layout.css */
+/* article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;} */
 
-body {
+/* body {
 	line-height: 1;
-}
+} */
 
-ol, ul {
+/* layout */
+/* ol, ul {
 	list-style: none;
 }
 
@@ -152,7 +156,7 @@ input, select, textarea {
 
 	footer {
 		margin: 2em 0 0 0;
-	}
+	} */
 
 	strong, b {
 		font-weight: 300;
@@ -163,7 +167,7 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	a {
+	/* a {
 		text-decoration: none;
 		color: inherit;
 		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
@@ -212,7 +216,7 @@ input, select, textarea {
 
 /* Container */
 
-	.container {
+	/* .container {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
@@ -259,7 +263,7 @@ input, select, textarea {
 		}
 
 /* Row */
-
+/* 
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -2015,7 +2019,7 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
-		}
+		} */ */ */
 
 /* Header */
 
